@@ -11,6 +11,8 @@ public class Hello {
         hello.say("Git");
     }
     private void say(String str) {
+        System.out.println("=====================================");
         System.out.println("Hello " + str + "!");
+        System.out.println("=====================================");
     }
 }
