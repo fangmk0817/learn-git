@@ -7,6 +7,10 @@ package com.example;
  */
 public class Hello {
     public static void main(String[] args) {
-        System.out.println("Hello Git!");
+        Hello hello = new Hello();
+        hello.say("Git");
+    }
+    private void say(String str) {
+        System.out.println("Hello " + str + "!");
     }
 }
